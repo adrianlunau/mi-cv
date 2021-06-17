@@ -37,7 +37,7 @@ header div img {
 /* Estilos para el main */
 
 .nombre_y_link{
-    height: 200px;
+    /* height: 200px; */
     text-align: center;
     margin-top: 100px 
     
@@ -45,6 +45,7 @@ header div img {
 
 .sobre-mi {
     margin-top: 40px;
+    margin-bottom: 30px;
       
     
 }
@@ -53,12 +54,20 @@ header div img {
     color: gray;
 }
 
+main div p{
+    margin: 0px 250px;
+    margin-bottom: 30px;
+    text-align: center;
+ 
+}
+
 /* Estilos para el footer */
 
 .redes {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    
     
     
     
@@ -161,6 +170,6 @@ dt{
 
 
 
-footer {
-    margin-bottom: 20px;
-}
+/* footer {
+    margin-bottom: 10px;
+} */
