@@ -55,9 +55,10 @@ header div img {
 }
 
 main div p{
-    margin: 0px 250px;
+    margin: 0px auto;
     margin-bottom: 30px;
     text-align: center;
+    max-width: 400px;
  
 }
 
