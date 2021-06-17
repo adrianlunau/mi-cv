@@ -1,0 +1,166 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Estilos para el header */
+
+header{
+    text-align: center;
+}
+
+header div{
+    background-color: #005677;
+    background-image: url(../img/banner2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 10%;
+
+    height: 200px;
+    margin-bottom: 2px solid black;
+    
+
+}
+
+header div img {
+    width: 150px;
+    margin-top: 120px;
+    border: 2px solid black;
+    border-radius: 50%;
+
+}
+
+/* Estilos para el main */
+
+.nombre_y_link{
+    height: 200px;
+    text-align: center;
+    margin-top: 100px 
+    
+}
+
+.sobre-mi {
+    margin-top: 40px;
+      
+    
+}
+
+.sobre-mi li a{
+    color: gray;
+}
+
+/* Estilos para el footer */
+
+.redes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    
+    
+}
+
+.redes li {
+    margin: auto 30px;
+}
+
+/* ------------ Estilos para sobre-mi.html ------------- */
+
+h2{
+    text-align: center;
+    margin: 20px;
+    font-size: 2em;
+}
+
+.volver-atras {
+    text-align: end;
+    margin: 40px auto;
+    
+    
+}
+
+
+
+.volver-atras a {
+    font-size: 16px;
+    border: 1px solid gray;
+    padding: 4px;
+}
+
+.volver-atras a:hover {
+    background-color: gray;
+    color: white;
+}
+
+/* Estilos generales */
+
+main {
+    margin: auto 180px;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+h1{
+    
+    text-transform: uppercase;
+    font-size: 1.5em;
+    color: black;
+    letter-spacing: 0.4em;
+    padding: 5px auto;
+}
+
+
+
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+h3{
+    font-size: 1.5em;
+    margin: 20px auto;
+    text-align: left;
+    border-bottom: 1px solid gray;
+    border-left: 1px solid gray;
+    color: gray;
+    margin-top: 30px;
+    padding: 4px;
+    padding-left: 8px;
+    
+
+}
+
+li {
+    margin-top: 10px;
+}
+
+dt {
+    padding-top: 10px;
+}
+
+span{
+    font-weight: bold;
+}
+
+.cursiva{
+    font-style: italic;
+}
+
+dt{
+    margin-top: 5px;
+}
+
+/* Estilos para el footer */
+
+
+
+footer {
+    margin-bottom: 20px;
+}
